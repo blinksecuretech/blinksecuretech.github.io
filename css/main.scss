@@ -82,7 +82,7 @@ body {
         }
       }
       a {
-        color: #fff;
+        color: rgb(216, 216, 216);
         padding: 30px 20px 25px;
         font-size: 20px;
         font-weight: 300;
@@ -91,6 +91,11 @@ body {
           content: " | ";
           position: absolute;
           right: 0;
+        color: rgba(216, 216, 216, 0.326);
+
+        }
+        &.active{
+          color:#FFF;
         }
       }
     }
