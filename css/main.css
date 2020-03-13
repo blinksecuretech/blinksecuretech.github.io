@@ -279,9 +279,19 @@ body {
 .our-solution .our-solution-platforms {
   background: url("../assets/22090.jpg") no-repeat;
   padding: 100px 0;
-  background-position: -45vw 0;
   min-height: 100vh;
   background-size: cover;
+  position: relative;
+}
+
+.our-solution .our-solution-platforms:before {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.95);
+  width: 40%;
 }
 
 .our-solution .our-solution-platforms .platform-box {
@@ -708,7 +718,6 @@ body {
   }
   .our-solution .our-solution-platforms {
     min-height: auto;
-    background-position: -45vw 0;
   }
 }
 
@@ -737,7 +746,7 @@ body {
   .problem:after {
     width: 150px;
     height: 70px;
-    bottom: -65px;
+    bottom: -60px;
   }
   .sec-heading {
     font-size: 2.1vw;
@@ -985,6 +994,9 @@ body {
   }
   .team .team-carousel .owl-prev {
     left: -100px;
+  }
+  .our-solution-platforms:before {
+    display: none;
   }
 }
 

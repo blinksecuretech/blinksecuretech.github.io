@@ -244,9 +244,19 @@ body {
   .our-solution-platforms {
     background: url("../assets/22090.jpg") no-repeat;
     padding: 100px 0;
-    background-position: -45vw 0;
+    // background-position: -45vw 0;
     min-height: 100vh;
     background-size: cover;
+    position: relative;
+    &:before {
+      content: " ";
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.95);
+      width: 40%;
+    }
     .platform-box {
       margin-bottom: 50px;
       background: #fff;
@@ -625,7 +635,7 @@ body {
   }
   .our-solution .our-solution-platforms {
     min-height: auto;
-    background-position: -45vw 0;
+
   }
 }
 
@@ -639,7 +649,7 @@ body {
     font-size: 2.1vw;
     margin: 0vw 0vw 4vw;
   }
-  .problem .container h3{
+  .problem .container h3 {
     font-size: 13.1vw;
     line-height: 9.9vw;
   }
@@ -654,7 +664,7 @@ body {
   .problem:after {
     width: 150px;
     height: 70px;
-    bottom: -65px;
+    bottom: -60px;
   }
   .sec-heading {
     font-size: 2.1vw;
@@ -663,70 +673,63 @@ body {
     font-size: 1.3vw;
     line-height: 2.1vw;
   }
-  .our-solution .our-solution-platforms .platform-box{
+  .our-solution .our-solution-platforms .platform-box {
     font-size: 1.1vw;
     line-height: 1.9vw;
     padding: 2.1vw;
     margin: 0vw 0vw 2.7vw;
   }
-  .our-platform .sub-heading{
+  .our-platform .sub-heading {
     font-size: 1vw;
   }
-  .our-platform .platform-item h3{
+  .our-platform .platform-item h3 {
     font-size: 1.1vw;
     margin: 0vw 0vw 0.3vw;
   }
-  .our-platform .platform-item p{
+  .our-platform .platform-item p {
     font-size: 1vw;
     line-height: 1.6vw;
   }
-  .market .sub-heading{
+  .market .sub-heading {
     font-size: 1vw;
     letter-spacing: 1.5px;
   }
-  .market .market-bottom .market-bottom-row h3{
+  .market .market-bottom .market-bottom-row h3 {
     font-size: 1.5vw;
   }
-  .market .market-bottom .market-bottom-row p{
+  .market .market-bottom .market-bottom-row p {
     font-size: 1.1vw;
-
   }
-  .how-it-works .sec-desc{
+  .how-it-works .sec-desc {
     font-size: 1.1vw;
-
-  
   }
-  .how-it-works .how-it-works-timline .time-line-row h4{
+  .how-it-works .how-it-works-timline .time-line-row h4 {
     font-size: 1.4vw;
   }
-  .how-it-works .how-it-works-timline .time-line-row p{
+  .how-it-works .how-it-works-timline .time-line-row p {
     font-size: 1.1vw;
     line-height: 1.6vw;
   }
-  .how-it-works .how-it-works-timline .time-line-row img{
+  .how-it-works .how-it-works-timline .time-line-row img {
     width: 100px;
   }
-  .our-product .product-carousel .item h3{
+  .our-product .product-carousel .item h3 {
     font-size: 1.5vw;
   }
-  .our-product .product-carousel .item p{
+  .our-product .product-carousel .item p {
     font-size: 1.1vw;
     line-height: 1.7vw;
   }
-  .team .team-carousel .item h4{
+  .team .team-carousel .item h4 {
     font-size: 1.2vw;
   }
-  .team .team-carousel .item h6{
+  .team .team-carousel .item h6 {
     font-size: 1vw;
   }
 }
 
-
-
-
-
-@media  (max-width:1199px) {
-  .hero header .header-cta a{
+@media (max-width: 1199px) {
+  .hero header .header-cta a {
     font-size: 16px;
   }
   .hero header li a {
@@ -759,106 +762,103 @@ body {
     font-size: 30px;
   }
   .sec-desc {
-    font-size:20px;
-    line-height:32px;
+    font-size: 20px;
+    line-height: 32px;
   }
-  .our-solution .our-solution-platforms .platform-box{
-    font-size:18px;
+  .our-solution .our-solution-platforms .platform-box {
+    font-size: 18px;
     line-height: 30px;
     padding: 30px;
     margin: 0vw 0vw 40px;
   }
-  .our-platform .sub-heading{
-    font-size:16px;
+  .our-platform .sub-heading {
+    font-size: 16px;
   }
-  .our-platform .platform-item h3{
+  .our-platform .platform-item h3 {
     font-size: 18px;
     margin: 0vw 0vw 20px;
   }
-  .our-platform .platform-item p{
+  .our-platform .platform-item p {
     font-size: 16px;
     line-height: 25px;
   }
-  .market .sub-heading{
+  .market .sub-heading {
     font-size: 16px;
     line-height: 25px;
   }
-  .market .market-bottom .market-bottom-row h3{
+  .market .market-bottom .market-bottom-row h3 {
     font-size: 20px;
   }
-  .market .market-bottom .market-bottom-row p{
-    font-size:17px;
-
+  .market .market-bottom .market-bottom-row p {
+    font-size: 17px;
   }
-  .market .market-map .market-item{
+  .market .market-map .market-item {
     font-size: 18px;
     line-height: 25px;
   }
-  .how-it-works .sec-desc{
+  .how-it-works .sec-desc {
     font-size: 18px;
-
-  
   }
-  .how-it-works .how-it-works-timline .time-line-row h4{
+  .how-it-works .how-it-works-timline .time-line-row h4 {
     font-size: 22px;
   }
-  .how-it-works .how-it-works-timline .time-line-row p{
+  .how-it-works .how-it-works-timline .time-line-row p {
     font-size: 18px;
     line-height: 30px;
   }
-  .how-it-works .how-it-works-timline .time-line-row img{
+  .how-it-works .how-it-works-timline .time-line-row img {
     width: 100px;
   }
-  .our-product .product-carousel .item h3{
+  .our-product .product-carousel .item h3 {
     font-size: 22px;
   }
-  .our-product .product-carousel .item p{
+  .our-product .product-carousel .item p {
     font-size: 18px;
     line-height: 30px;
   }
-  .team .team-carousel .item h4{
+  .team .team-carousel .item h4 {
     font-size: 18px;
   }
-  .team .team-carousel .item h6{
+  .team .team-carousel .item h6 {
     font-size: 16px;
   }
 }
 
-@media (max-width:991px){
-  header{
+@media (max-width: 991px) {
+  header {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     width: 100vw;
-    padding-top:15px;
-    padding-bottom:15px;
-    bottom:auto !important;
-    nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    bottom: auto !important;
+    nav {
       display: none;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 70px;
-    background: $main;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 70px;
+      background: $main;
     }
-    #menu-toggle{
+    #menu-toggle {
       width: 30px;
       padding: 10;
       position: absolute;
       right: 25px;
     }
     align-items: center;
-    .header-cta{
+    .header-cta {
       margin-left: 0;
       margin-right: 60px;
     }
   }
-  .hero .hero-content h1{
+  .hero .hero-content h1 {
     font-size: 20px;
     margin-top: 30px;
   }
-  .logo-mobile{
+  .logo-mobile {
     width: 100px;
   }
   .market .market-map #us-pin {
@@ -866,84 +866,85 @@ body {
     left: 19vw;
     top: 3vw;
     width: 11vw;
-}
-.market .market-map #india-pin {
-  position: absolute;
-  left: 61vw;
-  top: 6vw;
-  width: 11vw;
-}
-.market .market-map #australia-pin {
-  position: absolute;
-  right: 1vw;
-  top: 20vw;
-  width: 11vw;
-}
-.market .market-map .market-item{
-  position: static !important;
-  margin-top: 20px;
-}
-.market .market-bottom .market-bottom-row h3{
-  text-align: left;
-}
-.how-it-works .how-it-works-timline:before,
-.how-it-works .how-it-works-timline .time-line-row:before{
-  display: none;
-}
-.how-it-works .how-it-works-timline .time-line-row img{
-  margin-bottom: 20px;
-}
-.our-product .owl-next{
-  right: -30px;
-  img{
-  width: 30px;
-
+  }
+  .market .market-map #india-pin {
+    position: absolute;
+    left: 61vw;
+    top: 6vw;
+    width: 11vw;
+  }
+  .market .market-map #australia-pin {
+    position: absolute;
+    right: 1vw;
+    top: 20vw;
+    width: 11vw;
+  }
+  .market .market-map .market-item {
+    position: static !important;
+    margin-top: 20px;
+  }
+  .market .market-bottom .market-bottom-row h3 {
+    text-align: left;
+  }
+  .how-it-works .how-it-works-timline:before,
+  .how-it-works .how-it-works-timline .time-line-row:before {
+    display: none;
+  }
+  .how-it-works .how-it-works-timline .time-line-row img {
+    margin-bottom: 20px;
+  }
+  .our-product .owl-next {
+    right: -30px;
+    img {
+      width: 30px;
+    }
+  }
+  .our-product .owl-prev {
+    left: -30px;
+    img {
+      width: 30px;
+    }
+  }
+  .team .team-carousel .owl-next {
+    right: -100px;
+  }
+  .team .team-carousel .owl-prev {
+    left: -100px;
+  }
+  .our-solution-platforms:before{
+    display: none;
   }
 }
-.our-product .owl-prev{
-  left: -30px;
-  img{
-  width: 30px;
 
-  }
-}
-.team .team-carousel .owl-next{
-  right: -100px;
-}
-.team .team-carousel .owl-prev{
-  left: -100px;
-}
-}
-
-@media (max-width:767px){
-  .problem .container h5{
+@media (max-width: 767px) {
+  .problem .container h5 {
     font-size: 18px;
   }
   .problem .container h3 {
     font-size: 130px;
     line-height: 110px;
   }
-  .our-platform .platform-item{
+  .our-platform .platform-item {
     margin-bottom: 70px !important;
   }
-.our-platform .platform-item h3 {
-  font-size: 20px;
-  margin:20px 0vw 20px;
-}
-.market .sub-heading{
-  letter-spacing: 0;
-  text-transform: capitalize;
-}
-.market .market-map{
-  margin:30px auto;
-}
-.team .team-carousel .owl-stage-outer{
-  margin-top: 30px;
-}
-.team .team-carousel .owl-item.active.center{
-  transform: scale(1) !important;
-}
-.team .container{
-  padding: 0 50px;
-}
+  .our-platform .platform-item h3 {
+    font-size: 20px;
+    margin: 20px 0vw 20px;
+  }
+  .market .sub-heading {
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+  .market .market-map {
+    margin: 30px auto;
+  }
+  .team .team-carousel .owl-stage-outer {
+    margin-top: 30px;
+  }
+  .team .team-carousel .owl-item.active.center {
+    transform: scale(1) !important;
+  }
+  .team .container {
+    padding: 0 50px;
+  }
 }
