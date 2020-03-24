@@ -595,14 +595,14 @@ body {
   position: absolute;
   left: -60px;
   outline: 0;
-  top: 35%;
+  top: 20vh;
 }
 
 .our-product .owl-next {
   outline: 0;
   position: absolute;
   right: -60px;
-  top: 35%;
+  top: 20vh;
 }
 
 .team {

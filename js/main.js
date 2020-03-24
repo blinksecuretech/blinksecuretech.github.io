@@ -8,7 +8,7 @@ $(() => {
   $(".product-carousel").owlCarousel({
     items: 1,
     margin: 10,
-    autoHeight: true,
+    autoHeight: false,
     loop: true,
     autoplay: true,
     autoplayTimeout: 3000,
@@ -33,7 +33,7 @@ $(() => {
   });
   $(".team-carousel").owlCarousel({
     margin: 80,
-    autoHeight: true,
+    autoHeight: false,
     loop: true,
     autoplay: true,
     autoplayTimeout: 3000,
