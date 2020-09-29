@@ -279,7 +279,7 @@ body {
 .our-solution .our-solution-platforms {
   background: url("../assets/22090.jpg") no-repeat;
   padding: 100px 0;
-  min-height: 100vh;
+  min-height: 70vh;
   background-size: cover;
   position: relative;
 }
@@ -306,6 +306,37 @@ body {
 
 .our-solution .our-solution-platforms .platform-box strong {
   color: #cc2b5e;
+}
+
+.our-solution h3 {
+  color: #cc2b5e;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.our-solution .platform-description {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.our-solution strong {
+  color: #cc2b5e;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .our-solution h3 {
+    font-size: 1.56vw;
+    padding-top: 0.78vw;
+    padding-bottom: 0.52vw;
+  }
+  .our-solution .platform-description {
+    font-size: 1.25vw;
+    line-height: 2.08vw;
+  }
 }
 
 .sec-desc {
@@ -505,6 +536,13 @@ body {
 
 .how-it-works .sec-desc {
   font-size: 20px;
+}
+
+.how-it-works .platform-headings {
+  color: #cc2b5e;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .how-it-works .how-it-works-timline {
